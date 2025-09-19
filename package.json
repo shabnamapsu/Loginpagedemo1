@@ -1,4 +1,3 @@
-
 {
   "name": "npm",
   "private": true,
@@ -7,7 +6,7 @@
   "scripts": {
     "start": "nodemon server/index.js",
     "dev": "nodemon server/index.js",
-  "build": "npm install && npm install --prefix Loginpage && npm run build --prefix Loginpage"
+    "build": "npm install && npm install --prefix Loginpage && npm run build --prefix Loginpage"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -24,6 +23,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "lightningcss": "^1.30.1",
     "vite": "^7.1.2"
   }
 }
